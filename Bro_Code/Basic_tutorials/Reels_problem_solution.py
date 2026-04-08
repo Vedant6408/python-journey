@@ -6,11 +6,18 @@
 
 
 #printing 1 to 10 using while loop
-a = 1
-while True:
-    if a <= 10:
-        print(a)
-        a += 1
-    else:
-        break
+# a = 1
+# while True:
+#     if a <= 10:
+#         print(a)
+#         a += 1
+#     else:
+#         break
     
+
+#palidrome number checking program
+usr_input = input("Enter your number:: ")
+if usr_input[::-1]==usr_input:
+    print("your number is palidrome")
+else:
+    print("your number isn't palidrome number")
