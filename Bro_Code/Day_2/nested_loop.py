@@ -6,10 +6,15 @@
 #         print(o,end=f"")
 #     print(end=" ")
 
-rows = int(input("Enter a # of rows: "))
-column = int(input('Enter a # of column: '))
-symbol = input("Which type of symbol u wanna use: ")
-for y in range(rows):
-    for x in range(column):
-        print(symbol, end=" ")
+# rows = int(input("Enter a # of rows: "))
+# column = int(input('Enter a # of column: '))
+# symbol = input("Which type of symbol u wanna use: ")
+# for y in range(rows):
+#     for x in range(column):
+#         print(symbol, end=" ")
+#     print()
+row = 10
+for i in range(1, row + 1):
+    for j in range(i):
+        print("*",end=" ")
     print()
