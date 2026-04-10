@@ -16,8 +16,12 @@
     
 
 #palidrome number checking program
-usr_input = input("Enter your number:: ")
-if usr_input[::-1]==usr_input:
-    print("your number is palidrome")
-else:
-    print("your number isn't palidrome number")
+# usr_input = input("Enter your number:: ")
+# if usr_input[::-1]==usr_input:
+#     print("your number is palidrome")
+# else:
+#     print("your number isn't palidrome number")
+
+usr_input2 = int(input('enter'))
+something = usr_input2 % 60
+print(something)
