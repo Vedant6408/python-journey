@@ -6,10 +6,15 @@
 
 #We can also define 2dmatrix without defining 3 or move variable 
 
-grocries = [
+groceries = [
     ["Close up", "Colgate","Colgate maxfresh"],
     ["Mixture","Biscuit","Kurkure","Chips"],
     ["Wheel","Surf excel"]
 ]
 
-print(grocries[2][1]) #third rows are the rows of detergent poweder brand and i acces that surf excel element
+# print(groceries[2][1]) #third rows are the rows of detergent poweder brand and i acces that surf excel element
+
+#iterating element using for loop
+for items in groceries:
+    for food in items:
+        print(f"--{food}--",end=" ")
