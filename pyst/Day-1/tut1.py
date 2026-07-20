@@ -15,14 +15,16 @@
 # print(f"Ans:",a/b,"\n",a*b)
 
 #3
-import sys
-print(sys.version)
+# import sys
+# print(sys.version)
 
-#4
-while True:
-	a = input("Enter a number: ")
-	a = int(a)
-	if a <= 10:
-		continue
-	else:
-		break
+# #4
+# while True:
+# 	a = input("Enter a number: ")
+# 	a = int(a)
+# 	if a <= 10:
+# 		continue
+# 	else:
+# 		break
+	
+
