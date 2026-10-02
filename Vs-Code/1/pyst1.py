@@ -5,7 +5,7 @@ d = True
 while d:
     var1 = input("enter your age? ")
     if var1.isalpha():
-        print("age doesn't in alphabets letter !")
+        print("age can't be in alphabets letter !")
         continue    
     else:
         break
