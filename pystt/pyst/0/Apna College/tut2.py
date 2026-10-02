@@ -51,7 +51,21 @@ import pyttsx3
 # occstr = "Universe if infinite and so is our curiosity"
 # print(occstr.count("e")) #it will count the number of times the letter "e" occurs in the string
 
-text = "Banana"
-text.upper()
-text.replace("a", "o")
-print(text)
+# text = "banana"
+# text.upper()
+# # text.replace("a","o")
+# print(text.replace("a","9"))
+
+#mujhe ye batao
+him1 = "bouni"
+him2 = "1.5 footiya"
+i = 10
+while True:
+    if him1 != "Pagal aaurat":
+        print("you can't be tall")
+        break
+    else:
+        print("don't change your height")
+        break
+    
+        
