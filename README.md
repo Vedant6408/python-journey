@@ -1,3 +1,1 @@
 # Python_learning_journey
-Restarting it again.......
-<h1>Restarting it again....</h1>
