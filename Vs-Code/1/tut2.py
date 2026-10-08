@@ -1,4 +1,4 @@
-import pyttsx3
+# import pyttsx3
 # # string = "This is a string"
 # # print(string[0:6])
 # # a = 4.50
@@ -6,21 +6,21 @@ import pyttsx3
 # # print(type(a))
 # # print(round(a))
 # # print(round(b))
-# # print(oct(23) + oct(23))
+# print(oct(23))
 # # print(~2)
 # #we're gonna concatenate two strings
-# strn1 = "Mechanical"
-# strn2 = "Keyboard"
+strn1 = "Mechanical"
+strn2 = "Keyboard"
 # #using + operator to concatenate these two strings
-# addedstr = strn1 + " " + strn2
-# print(addedstr)
-# print(len(addedstr))
+addedstr = strn1 + " " + strn2
+print(addedstr)
+print(len(addedstr))
 # print(addedstr[0:12])
 # def kishan():
 #     print("This is a function")
 # kishan() #this is how we call the function
-# str3 = "Abdul kalam"
-# print(str3[0:len(str3)]) #This is how we can print the whole string using string slicing
+str3 = "Sushant singh rajput"
+print(str3[0:len(str3)]) #This is how we can print the whole string using string slicing
 # #if we want to print the one letter from any string then we can do it like thiss
 # print(str3[4])
 # """
@@ -57,15 +57,15 @@ import pyttsx3
 # print(text.replace("a","9"))
 
 #mujhe ye batao
-him1 = "bouni"
-him2 = "1.5 footiya"
-i = 10
-while True:
-    if him1 != "Pagal aaurat":
-        print("you can't be tall")
-        break
-    else:
-        print("don't change your height")
-        break
+# him1 = "bouni"
+# him2 = "1.5 footiya"
+# i = 10
+# while True:
+#     if him1 != "Pagal aaurat":
+#         print("you can't be tall")
+#         break
+#     else:
+#         print("don't change your height")
+#         break
     
         
