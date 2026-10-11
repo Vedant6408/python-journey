@@ -29,6 +29,9 @@
 #Find the largest of two number
 num1 = int(input("First num:: "))
 num2 = int(input("Second num:: "))
-a = 0
-if num1 > 0 & num2 < 0: print("num1 is greater")
-else: print("num2 is greater")
+# if num1 > num2: print("num1 is larger")
+# else: print("num2 is larger")
+#using ternary operator
+print("num1 is larger" if num1 > num2 else "num2 is larger")
+#using max function
+print(f"The larger number is: {max(num1,num2)}")
