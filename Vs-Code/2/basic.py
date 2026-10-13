@@ -59,6 +59,8 @@
 #     print("then what are you dude not a human or something else then what ?? ")
 
 #dictionary
-dict_1 = {"Mahi":"Choco", "Mehak":"Vanila","Divya":"Junior","Ritu":"Semester","Sona":"Irritating"}
-dict_2 = {"Rajeev":"idk", "Nandu":"Noobs","Vivek":"idk2","soon":"3rd","Sonu":"idk3"}
-dict_3 = {"Kishan":"Arunachal pradesh","Alok":"Tm_tanu","Anshu":"Next window","Sandeep":"classmate","Subham":"Single"}
+dict_2 = {"Rajeev":"idk", "Nandu":"Noobs","Vivek":"idk2","soon":"3rd","Sonu":"idk3",
+ "Kishan":"Arunachal pradesh","Alok":"Tm_tanu","Anshu":"Next window","Sandeep":"classmate","Subham":"Single"}
+
+usrp = input("ENTER YOUR NAME:: ")
+print(f"{dict_2.get(usrp.capitalize(),"invalid input")}")
